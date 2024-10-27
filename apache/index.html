@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio personal de un profesional en tecnología, desarrollo de software y gestión de proyectos ágiles."
+    />
+    <title>Desarrollo Extremo - Portafolio</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&family=Montserrat:wght@400;700&family=Nunito:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="img/logo.png" alt="Desarrollo Extremo Logo" />
+        </div>
+        <div class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links">
+          <li><a href="#about">Sobre Mí</a></li>
+          <li><a href="#portfolio">Portafolio</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="about" class="about-section">
+      <h2>Sobre Mí</h2>
+      <img src="img/photo.png" alt="Imagen de muestra" class="about-img" />
+      <p>
+        Profesional en ingeniería de sistemas con más de 10 años de experiencia
+        en desarrollo de software y gestión de proyectos.
+      </p>
+    </section>
+
+    <section id="portfolio" class="portfolio-section py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Portafolio</h2>
+        <div class="row">
+          <!-- Project 1 -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                src="https://via.placeholder.com/350x200"
+                class="card-img-top"
+                alt="Proyecto 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Proyecto 1</h5>
+                <p class="card-text">
+                  Descripción breve del Proyecto 1. Este proyecto consiste en
+                  una aplicación web que permite a los usuarios gestionar sus
+                  tareas diarias de manera eficiente.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Ver Proyecto</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                src="https://via.placeholder.com/350x200"
+                class="card-img-top"
+                alt="Proyecto 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Proyecto 2</h5>
+                <p class="card-text">
+                  Descripción breve del Proyecto 2. Este proyecto es una
+                  plataforma de comercio electrónico que ofrece una experiencia
+                  de compra personalizada.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Ver Proyecto</a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                src="https://via.placeholder.com/350x200"
+                class="card-img-top"
+                alt="Proyecto 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Proyecto 3</h5>
+                <p class="card-text">
+                  Descripción breve del Proyecto 3. Una aplicación móvil
+                  diseñada para facilitar la gestión de eventos y reuniones de
+                  manera colaborativa.
+                </p>
+                <a href="#" class="btn btn-outline-primary">Ver Proyecto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <a href="#" class="btn btn-primary">Ver Más Proyectos</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2 class="text-center mb-4">Contacto</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-lg-6">
+            <form action="#" method="post" class="contact-form">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  name="name"
+                  class="form-control"
+                  placeholder="Nombre Completo"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="email"
+                  name="email"
+                  class="form-control"
+                  placeholder="Correo Electrónico"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <textarea
+                  name="message"
+                  class="form-control"
+                  rows="5"
+                  placeholder="Tu Mensaje"
+                  required
+                ></textarea>
+              </div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="blog-section py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Blog</h2>
+        <div class="row">
+          <!-- Card 1 -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                src="https://via.placeholder.com/350x200"
+                class="card-img-top"
+                alt="Artículo 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Título del Artículo 1</h5>
+                <p class="card-text">
+                  Este es un resumen breve del artículo 1. Aquí se presenta una
+                  vista previa del contenido para captar la atención del lector.
+                </p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 2 -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                src="https://via.placeholder.com/350x200"
+                class="card-img-top"
+                alt="Artículo 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Título del Artículo 2</h5>
+                <p class="card-text">
+                  Este es un resumen breve del artículo 2. Aquí se presenta una
+                  vista previa del contenido para captar la atención del lector.
+                </p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+              </div>
+            </div>
+          </div>
+          <!-- Card 3 -->
+          <div class="col-md-4">
+            <div class="card mb-4">
+              <img
+                src="https://via.placeholder.com/350x200"
+                class="card-img-top"
+                alt="Artículo 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Título del Artículo 3</h5>
+                <p class="card-text">
+                  Este es un resumen breve del artículo 3. Aquí se presenta una
+                  vista previa del contenido para captar la atención del lector.
+                </p>
+                <a href="#" class="btn btn-primary">Leer más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="main-footer">
+      <p>&copy; 2024 Desarrollo Extremo. Todos los derechos reservados.</p>
+      <div class="social-links">
+        <a href="https://www.linkedin.com" target="_blank"
+          ><i class="fab fa-linkedin"></i> LinkedIn</a
+        >
+        <a href="https://www.github.com" target="_blank"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a href="https://www.twitter.com" target="_blank"
+          ><i class="fab fa-twitter"></i> Twitter</a
+        >
+      </div>
+    </footer>
+
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const navLinks = document.querySelector(".nav-links");
+
+      menuToggle.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+      });
+    </script>
+  </body>
+</html>

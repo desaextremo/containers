@@ -1,0 +1,14 @@
+subir contenedores
+docker-compose up -d
+
+detener contenedores
+docker-compose down
+
+Informaciòn de autenticacion
+use: admin
+password: pass
+
+Conectarse via shell
+docker exec -it <nombre del contenedor de mongo> mongosh
+docker exec -it mongo-server mongosh
+
